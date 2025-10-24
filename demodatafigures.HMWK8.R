@@ -140,3 +140,12 @@ ggplot(demoplot, aes(x = proportion, y = race, fill = group_activity)) +
     plot.title = element_text(face = "bold", size = 14, hjust = 0.5),
     legend.position = "none"
   )
+
+###OUTLIERS IN MY FIGURES###
+#Looking at the actual figures I created here, there are certainly outliers in my data. This first obvious one is the lack of responses in My Vilas County Anglers. This figure definitely highlights the lack of diversity in that angler group, as there are no responses from any race other than white. This could be due to a variety of factors, including the demographics of the area, or even potential biases in who chose to respond to the survey.Other than that, the data looks like how I would expect it. 
+
+####CHANGES OR IMBALANCES THAT COULD IMPACT INTERPRETATION OF THE DATA####
+#1 I recoded multiple variations of some race categories like hispanic/black/multiracial categories, but that does mean some nuance is missing from a diversity standpoint. 
+#2 Removed refusals and multiracial entirely. This ignores participants who declined to respond or who did not identify as a specific race, meaning it could lead to slight bias in the racial proportions. This is especially true when you notice just how many interviews I drop by doing so
+#3 Proportions were calculated within each group_activity, which is correct for comparing racial composition within that group, but not for comparing across groups if sample sizes differ drastically
+#4 Limited data on rural anglers resulted in an unclear big picture of the racial makeup of rural anglers in Wisconsin. This could skew the overall interpretation of racial diversity among anglers if rural areas have different demographics than urban areas.
