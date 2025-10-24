@@ -27,7 +27,7 @@ if (length(entity_id) == 0) stop("Entity name not found — check print(entity_n
 raw_bytes <- read_data_entity(package_id, entity_id)
 EDIcreeltable <- read_csv(file = raw_bytes)
 
-#OK I mostly wanted to show that I could do this for the sake of this homework assignment, but now I am going to complete the rest of it with the revised version of this dataset so I can make some useable figures
+#OK I mostly wanted to show that I could do this for the sake of this homework assignment, but now I am going to complete the rest of it with the revised version of this dataset so I can make some useable figure. You can find this still in my Github repo as creeltablecleaned.csv
 
 creeltableall<-read.csv("creeltablecleaned.csv")
 
